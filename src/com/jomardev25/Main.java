@@ -10,7 +10,7 @@ import com.jomardev25.taxrates.TaxRateTX;
 
 public class Main {
 
-	public static void main(String[] args) throws Exception {
+	static public void main(String[] args) throws Exception {
 		System.out.print("Enter the state(MN, CA, NY, NM, TX): ");
 		Scanner stateScanner = new Scanner(System.in);
 
